@@ -1,0 +1,78 @@
+/* Write your CSS here */
+
+.bg_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 20px;
+  width: 350px;
+}
+
+.profile_photo {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+  width: 45px;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  font-family: 'Roboto';
+}
+.profile_container {
+  display: flex;
+  align-items: center;
+}
+
+.balance_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.rupees {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.amount {
+  color: #d4d2db;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
